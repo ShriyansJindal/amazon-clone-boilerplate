@@ -37,8 +37,9 @@ body{
     padding: 0%;
 }
 .location-text .hello{
-    color: #77858c;
-    font-size: 13px;
+    margin-top: 5px;
+    color: #9bacb4;
+    font-size: 10px;
 }
 .location-text .address{
     font-size: 14px;
@@ -212,12 +213,23 @@ body{
 /* background image */
 .main{
     background-image: url(assets/background\ picture.png);
+    /* background-image: linear-gradient(-180deg,rgba(0,0,0,0),rgba(0,0,0,0)),url(assets/background\ picture.png); */
     background-size: cover;
     /* width: 850px; */
     /* height: 515px; */
     width: 98%;
     margin: auto;
+    position: relative;
     /* box-shadow: inset 0 0 0 0 white; */
+}
+.gradient{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    /* border: 2px solid red; */
+    z-index: 0;
+    background:linear-gradient(180deg,rgba(0,0,0,0),#d2dfe5);
 }
 #left-arrow{
     width: 30px;
@@ -231,7 +243,7 @@ body{
     width: 30px;
     filter: invert(100%);
     position: absolute;
-    top: 177px;
+    top: 100px;
     right: 20px;
 }
 .shopping{
@@ -243,6 +255,7 @@ body{
     justify-content: space-between;
 }
 .box{
+    z-index: 2;
     box-sizing: border-box;
     width: 24%;
     height: 304px;
