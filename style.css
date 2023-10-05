@@ -235,8 +235,8 @@ body{
     right: 20px;
 }
 .shopping{
-    height: 300px;
-    border: 2px solid red;
+    height: 304px;
+    /* border: 2px solid red; */
     margin: 0px 15px;
     margin-top: 180px;
     display: flex;
@@ -245,15 +245,15 @@ body{
 .box{
     box-sizing: border-box;
     width: 24%;
-    height: 300px;
+    height: 304px;
     background-color: white;
-    padding: 0px 15px;
+    padding: 0px 17px;
 
 }
 .photos{
     width: 250px;
     height: 200px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -277,4 +277,44 @@ body{
     margin: 0;
     font-size: 11px;
     color: rgb(118, 118, 118);
+}
+.box h3{
+    margin: 10px 0px;
+}
+.shop-now{
+    color: #478c9a;
+    margin: 0;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.explore{
+    margin-top: 35px;
+}
+.shop3{
+    margin: 2px;
+
+}
+.last-box{
+    background-color: transparent;
+    padding: 0%;
+}
+.button{
+    background-color: white;
+    padding: 15px 20px;
+}
+.button h2{
+    margin-top: 0px;
+}
+.button button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fed813;
+}
+.last-box img{
+    margin: 10px 40px;
+    width: 220px;
+    margin-bottom: 0;
+
 }
