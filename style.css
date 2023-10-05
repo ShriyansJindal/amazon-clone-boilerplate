@@ -50,7 +50,6 @@ body{
     display: flex;
 }
 .search #all{
-    /* width: 50px; */
     border: none;
     border-right: 1px solid rgb(191, 191, 191);
     border-top-left-radius: 3px;
@@ -78,6 +77,7 @@ body{
 #search-icon img{
     width: 18px;
 }
+/* country */
 #country{
     background-color: transparent;
     width: 12px;
@@ -168,6 +168,7 @@ body{
     margin: 0% 5px;
     
 }
+/* nav2 right side */
 #prime{
     background-color: transparent;
     border: none;
