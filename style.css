@@ -217,19 +217,16 @@ body{
     background-image: url(assets/background\ picture.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /* width: 850px; */
-    /* height: 515px; */
     width: 98%;
     margin: auto;
     position: relative;
-    /* box-shadow: inset 0 0 0 0 white; */
+
 }
 .gradient{
     width: 100%;
     height: 300px;
     position: absolute;
     bottom: 0;
-    /* border: 2px solid red; */
     z-index: 0;
     background:linear-gradient(180deg,rgba(0,0,0,0),#d2dfe5);
 }
